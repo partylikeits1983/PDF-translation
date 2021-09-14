@@ -1,5 +1,5 @@
 # PDF Translation Tool
-## _for lazy translators_
+## _for lazy translators who also know how to code_
 
 ## Features
 
