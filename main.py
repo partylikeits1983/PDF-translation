@@ -1,7 +1,7 @@
 import PyPDF2
 import Split
 from subprocess import call
-import sys
+
 
 from googletrans import Translator, constants
 from pprint import pprint
@@ -23,5 +23,10 @@ for i in range(pdfReader.numPages):
     translator = Translator()
 
     translation = translator.translate(data, src="en", dest="ru")
-    print(translation)
+    
+    text = translation.text
+
+    with open('test.txt','a') as f:
+        f.write(text)
+
 
