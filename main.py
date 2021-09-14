@@ -24,7 +24,7 @@ def split(directory, filename):
         with open(directory+ "/%s.pdf" % i, "wb") as outputStream:
             output.write(outputStream)
 
-#define pdf file
+#path to pdf file
 filename = '/home/ubuntu/Desktop/pdf.pdf'
 directory = "splitted/" + filename
 
