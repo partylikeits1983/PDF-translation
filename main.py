@@ -7,23 +7,21 @@ from googletrans import Translator, constants
 from pprint import pprint
 
 
-if (len(sys.argv) < 2):
-    print("Error\nFormat: \n\tpython main.py your-pdf-file")
-else:
-    filename = sys.argv[1]
-    directory = "splitted/" + filename
+filename = '/home/ubuntu/Desktop/pdf.pdf'
+directory = "splitted/" + filename
 
-    Split.split(directory, filename)
-    pdfFileObj = open(filename, 'rb')
-    pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+Split.split(directory, filename)
+pdfFileObj = open(filename, 'rb')
+pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
 
-    for i in range(pdfReader.numPages):
-        splitted_file_name = directory + "/" + repr(i)
-        call(["pdftotext", splitted_file_name + ".pdf"])
-        f = open(splitted_file_name + '.txt', 'r')
-        
-        data = f.read().replace('\n', '')
-        translator = Translator()
-   
-        translation = translator.translate(data, src="en", dest="ru")
-        print(translation.text)
+for i in range(pdfReader.numPages):
+    splitted_file_name = directory + "/" + repr(i)
+    call(["pdftotext", splitted_file_name + ".pdf"])
+    f = open(splitted_file_name + '.txt', 'r')
+    
+    data = f.read().replace('\n', '')
+    translator = Translator()
+
+    translation = translator.translate(data, src="en", dest="ru")
+    print(translation)
+
