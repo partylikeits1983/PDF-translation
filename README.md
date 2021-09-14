@@ -1,9 +1,9 @@
 # PDF Translation Tool
 ## _for lazy translators who also know how to code_
 
-## Features
+## _Features_
 
-- Import a HTML file and watch it magically convert to Markdown
+- extract text from a PDF and translate that text
 
 ## Installation
 https://www.thepythoncode.com/article/translate-text-in-python \
