@@ -6,7 +6,7 @@
 - Import a HTML file and watch it magically convert to Markdown
 
 ## Installation
-https://www.thepythoncode.com/article/translate-text-in-python \n
+https://www.thepythoncode.com/article/translate-text-in-python /n
 https://www.soudegesu.com/en/post/python/extract-text-from-pdf-with-pypdf2/
 
 make sure to uninstall all previous google translate libraries 
