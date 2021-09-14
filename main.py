@@ -3,6 +3,10 @@ import Split
 from subprocess import call
 import sys
 
+from googletrans import Translator, constants
+from pprint import pprint
+
+
 if (len(sys.argv) < 2):
     print("Error\nFormat: \n\tpython main.py your-pdf-file")
 else:
@@ -16,7 +20,10 @@ else:
     for i in range(pdfReader.numPages):
         splitted_file_name = directory + "/" + repr(i)
         call(["pdftotext", splitted_file_name + ".pdf"])
-        # f = open(splitted_file_name + '.txt', 'r')
-        # print("Page %s" % repr(i+1))
-        # print(f.read())
-        # print("====================")
+        f = open(splitted_file_name + '.txt', 'r')
+        
+        data = f.read().replace('\n', '')
+        translator = Translator()
+   
+        translation = translator.translate(data, src="en", dest="ru")
+        print(translation.text)
