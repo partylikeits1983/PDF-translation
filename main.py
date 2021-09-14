@@ -2,12 +2,10 @@ import PyPDF2
 import Split
 from subprocess import call
 
-
 from googletrans import Translator, constants
 from pprint import pprint
 
-
-filename = '/home/ubuntu/Desktop/pdf.pdf'
+filename = 'pdf.pdf'
 directory = "splitted/" + filename
 
 Split.split(directory, filename)
