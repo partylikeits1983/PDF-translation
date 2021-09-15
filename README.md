@@ -1,12 +1,12 @@
 # PDF Translation Tool
 ## _for lazy translators who also know how to code_
 
-## _Features_
+## _Current Features_
 
 - extract text from a PDF and translate that text
 
 
-## _Planned Features_
+### _Planned Features_
 
 - 1 convert pdf to text
 - 2 use NLP to condense text
