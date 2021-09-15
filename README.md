@@ -13,8 +13,7 @@
 - 3 translate condensed text
 
 
-- idealy this tool would be packaged as a telegram bot that you can send an image to, the server will 
-- then be able to extract the text from the image, and send you back the condensed NLP text and or with translation applied.
+- idealy this tool would be packaged as a telegram bot that you can send an image to, the server will then be able to extract the text from the image, and send you back the condensed NLP text and or with translation applied.
 
 ## Installation
 https://www.thepythoncode.com/article/translate-text-in-python \
