@@ -14,7 +14,7 @@
 - 3 improve UI
 
 
-- idealy this tool would be packaged as a telegram bot that you can send an image to, the server will then be able to extract the text from the image, and send you back the condensed NLP text and or with translation applied.
+- idealy this tool would be packaged as a telegram bot that you can send an image to, the server will then be able to extract the text from the image, and send you back the condensed NLP text and or with translation applied, but we'll see if I get around to doing that.
 
 ## Installation
 https://www.thepythoncode.com/article/translate-text-in-python \
