@@ -25,7 +25,7 @@ def split(directory, filename):
             output.write(outputStream)
 
 #path to pdf file
-filename = '/home/ubuntu/Desktop/pdf.pdf'
+filename = 'constitution.pdf'
 directory = "splitted/" + filename
 
 split(directory, filename)
