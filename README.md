@@ -3,7 +3,7 @@
 
 ## _Current Features_
 
-- extract text from a PDF and translate that text
+- extract text from a multipage PDF and translate that text
 
 
 ### _Planned Features_
