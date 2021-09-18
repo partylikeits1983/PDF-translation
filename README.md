@@ -9,7 +9,7 @@
 ### _Planned Features_
 
 
-- 1 ask user in terminal wheather to use NLP to condense text
+- 1 ask user in terminal whether to use NLP to condense text
 - 2 translate condensed or noncondensed text
 - 3 improve UI
 
